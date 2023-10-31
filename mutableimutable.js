@@ -20,6 +20,5 @@ console.log(newStudents)
 let name = 'Raihan'
 let newName = name
 newName = 'KIKI' 
-
 console.log(name)
 console.log(newName)

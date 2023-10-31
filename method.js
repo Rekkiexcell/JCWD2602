@@ -3,7 +3,7 @@
 
 // 1. String Built-in Method
 // .length -> Untuk menghitung jumlah karakter
-const paragraph = 'Abcdefghijklmnopq00001010'
+const paragraph = 'Abcdefghijklmnopq00001010' 
 console.log(paragraph.length) 
 
 // .silice -> Untuk Memotong // 01234

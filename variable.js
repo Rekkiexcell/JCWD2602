@@ -4,8 +4,7 @@ console.log("Hello, World!") // ; -> Semicolon
 // Statment -> Syntax yang tidak menghasilkan apapun
 // Expresioon -> msyntax yang menghasilkan sesuatu
 
-console.log(5 % 2) // statment & excpresion
-// console.log(1+1) Create Coment (CTRL + ? OR CTRL /)
+console.log(5 % 2) // statment & excpresion // console.log(1+1) Create Coment (CTRL + ? OR CTRL /)
 
 /*
    this is
@@ -15,18 +14,9 @@ console.log(5 % 2) // statment & excpresion
 // VARIABLES
 // Tempat untuk menyimpan data
 // var variablename = value
-console.log("Hello, JCWD!")
-// console.log("Hello, JCWD!")
-// console.log("Hello, JCWD!")
-// console.log("Hello, JCWD!")
-// console.log("Hello, JCWD!")
+console.log("Hello, JCWD!") // console.log("Hello, JCWD!") // console.log("Hello, JCWD!") // console.log("Hello, JCWD!") // console.log("Hello, JCWD!")
 
-var world = "Hello, JCWD!"
-// console.log(world)
-// console.log(world)
-// console.log(world)
-// console.log(world)
-// console.log(world)
+var world = "Hello, JCWD!" // console.log(world) // console.log(world) // console.log(world) // console.log(world) // console.log(world)
 
 // - variable rules:
 // 1. Namingnya  harus jelas
@@ -55,12 +45,10 @@ console.log(studentName)
 // tidak memiliki aturan scope
 var animal = "jerapah"
 var animal = "Gajah"
-
 console.log(animal)
 
 var studentName = "Raihan"
 studentName = "Bulan"
-
 console.log(studentName)
 
 // let
@@ -68,7 +56,6 @@ console.log(studentName)
 // valuenya masih bisa di ubah
 let campusPWD1 = "BSD"
 campusPWD1 = "JKT"
-
 console.log(campusPWD1)
 // memiliki aturan scope
 
@@ -79,7 +66,6 @@ console.log(campusPWD1)
 // const poin = 10
 // const poin = 20
 const color = 'Red'
-
 console.log(color)
 
 // ( = ) operator untuk memberikan value pada sebuah variable

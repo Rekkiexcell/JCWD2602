@@ -1,7 +1,7 @@
 // CONDITIONAL STATMENT 
 // PENGKONDISIAN
 
-// if  
+// if  (JIKA)
 /* if(condition){ // apabila condition terpenuhi} */
 
     const poinStudent = 80
@@ -10,13 +10,13 @@
     } if ('abc' == 'Abc') { // false 
         console.log('sama')
     }
-// if - else ---> Else sebagai default ouput apabila
+// if - else ---> Else sebagai default ouput apabila (JIKA -MAKA)
   if (50 < 80) {
     console.log('Runing')
 } else {
     console.log('Error')
 }
-//  - else if 
+//  - else if (MAKA - JIKA)
 const nilaiSiswa1 = 74
 if(nilaiSiswa1 > 90){ // false
     console.log('LULUS BAIK')

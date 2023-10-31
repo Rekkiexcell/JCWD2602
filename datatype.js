@@ -6,7 +6,6 @@
 //  - (Typeof) -> syntax untuk mengetahui type data sebuah value 
 const campusPwd2 = 'JKT'
 const campusPwd3 = `BDG "lets'go" `
-
 console.log(typeof campusPwd2)
 console.log(campusPwd3)
 

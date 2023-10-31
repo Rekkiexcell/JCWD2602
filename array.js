@@ -24,53 +24,53 @@ name = 'Defryan'
 
 const studentsName = ['Kiki', 'Bulan', 'Rahma']
 studentsName[0] = 'Defryan' // [Defryan, Bulan, Rahma]
-console.log(studentsName)
+// console.log(studentsName)
 studentsName[2] = 'Aboy' // [Defryan, Bulan, Aboy]
-console.log(studentsName)
+// console.log(studentsName)
 studentsName[3] = 'Karta' // Menambahkan data baru di index ke-3
-console.log(studentsName)
+// console.log(studentsName)
 
 // Delete 
 delete studentsName[0]
-console.log(studentsName)
+// console.log(studentsName)
 
 // Method
 // - Push: Menambahkan data di index paling akhir
 const arrNumbers = [1, 2, 3]
 arrNumbers.push(4, 5, 'abc')
-console.log(arrNumbers)
+// console.log(arrNumbers)
 
 // - Unshift: Menambahkan data di index paling awal
 const alphabets = ['a', 'b', 'c']
 alphabets.unshift('d', 'e')
-console.log(alphabets)
+// console.log(alphabets)
 
 // - Pop: Menghapus data di index paling akhir
 const campusPwdNew = ['BSD', 'JKT']
 campusPwdNew.pop()
-console.log(campusPwdNew)
+// console.log(campusPwdNew)
 
 // - Shift: Menghapus data di index paling awal
 const arrRandom = [1, true, 'Abc']
 arrRandom.shift()
-console.log(arrRandom)
+// console.log(arrRandom)
 
 // - Splice: Bisa digunakan untuk menghapus atau menambah 
 // variableName.splice(index, howManyItemsToDelete, items)
 // Menghapus using Splice
 const programming = ['JS', 'PHP', 'Phyton']
 programming.splice(0, 2)
-console.log(programming)
+// console.log(programming)
 
 // Menambah using Splice
 const dataRandom = [1, true, 'A'] 
 dataRandom.splice(1, 2, 'B', 'D')
-console.log(dataRandom)
+// console.log(dataRandom)
 
 const classPwd = ['JCWD', 'JCDM', 'JCDS']
 // classPwd.splice(3, 0, 'JCVD')
 classPwd.splice(2, 2)
-console.log(classPwd)
+// console.log(classPwd)
 
 
 
@@ -78,4 +78,4 @@ console.log(classPwd)
 const arrNumbersss = [1, 2, 3]
 // arrNumbersss[5] = 10 //Manual
 arrNumbersss.splice(5, 0, 'BCD') // Splice
-console.log(arrNumbersss)
+// console.log(arrNumbersss)
